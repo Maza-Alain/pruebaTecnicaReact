@@ -1,6 +1,8 @@
 const Pregunta10 = () => {
     return ( 
         <div>
+            <p className="nota">Nota: Ya no me dio tiempo de hacer esta pregunta :C</p>
+
             <table>
                 <tr>
                     <th>-id</th>

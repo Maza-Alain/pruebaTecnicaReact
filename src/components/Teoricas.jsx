@@ -1,6 +1,8 @@
 import "../index.scss"
 const Teoricas = () => {
-    
+    // ====Pregunta 4
+    const saludo = (nombre) => `Hola ${nombre}`; 
+    console.log( saludo('Jonathan') );
     return ( 
         <div className="contenedor">
             <h2>Preguntas teóricas</h2>
@@ -16,6 +18,11 @@ const Teoricas = () => {
             <section>
                 <h4>3. ¿Cuáles son los diferentes tipos de errores en JavaScript?</h4>
                 <p>No entiendo la pregunta, suelo encontrarme con varios tipos de errores, por ejemplo de sintaxis, de tipado, cuando me faltan parámetros en una función que llamo y dicha función los necesita, supongo debe existir alguna clasificación para los errores, pero la desconozco</p>
+            </section>
+            <section>
+                <h4>4. Que son los arrow functions e impleméntalo con el siguiente código:</h4>
+                <p>(Para ver la función revisar el código )Los arrow functions son la nueva sintaxis para las funciones que se incluyeron a javascript gracias al ecmascript 6. La implementación se encuentra en el código fuente de este componente o si abres la consola, aparecerá.
+                </p>
             </section>
             <section>
                 <h4>7. Describe cual es el ambiente mínimo de desarrollo que necesitas para desarrollar una
